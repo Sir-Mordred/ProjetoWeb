@@ -1,0 +1,249 @@
+/* pagina de login */
+.login{
+    margin: auto;
+    width: 30%;
+    padding: 20px;
+    float: center;
+    width: 300px;
+    padding: 10px;
+}
+#lusuario{
+    width: 300px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-family: Arial;
+    margin-top: 3px;
+    outline: none;
+}
+#lsenha{
+    width: 300px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-family: Arial;
+    margin-top: 3px;
+    outline: none;
+}
+
+#botao1{
+    width: 300px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 2px;
+    font-family: Arial;
+    margin-top: 3px;
+    background-color: yellow;
+}
+
+#botao1:hover {
+    background-color: green;
+}
+#botao2{
+    width: 300px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 2px;
+    font-family: Arial;
+    margin-top: 3px;
+    background-color: yellow;
+}
+
+#botao2:hover {
+    background-color: green;
+}
+
+/* cadastro de novo usuario */
+.cadastro{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 1px #ccc;
+    border-radius: 2px;
+    font-family: Arial;
+    margin-top: 3px;
+    outline: none;
+    
+}
+#salvar{
+    width: 85px;
+    height: 40px;
+    background-color: #088A68;
+    color: white;
+    margin-top: 20px;
+    border: none;
+}
+
+#salvar:hover{
+    background-color: #04B486;
+    cursor: pointer;
+}
+#cancelar{
+    width: 85px;
+    height: 40px;
+    background-color: yellow;
+    color: white;
+    margin-top: 20px;
+    border: none;
+}
+
+#cancelar:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+.erro{
+    border: solid 1px #Fa5858;
+}
+.erro::placeholder{
+    color: #fa5858;
+}
+
+.principal{
+    padding-top: 50px;
+    margin: 0 auto;
+    top: 15%;
+    width: 210px;
+    color: #AA00AA;
+}
+
+/* caixa de emails */
+.barra_superior{
+    height: 30px;
+    width: 100%x;
+    background-color: #000f21;
+    min-width: 10em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.nova_mensagem{
+    height: 30px;
+    width: 100%x;
+    
+}
+
+.newmsg{
+    width: 300px;
+
+}
+.filtros{
+    width: 15%;   
+    float: left;
+}
+
+.filtros1 {
+    width: 15%;
+    background-color: #0660a1;
+    
+}
+
+.filtros2 {
+    width: 15%;
+    background-color: #1aace7;
+
+}
+
+
+.emails{
+    height: 92%;
+    width: 85%;
+    
+    position:relative;
+    float: left;
+}
+
+.texto {
+
+    min-width: 10em;
+    display: table-cell;
+    vertical-align: middle;
+    height: 30px;
+
+
+}
+
+.divtest {
+    position: relative;
+    float: left;
+    border-width:2px;
+    background-color: black;
+}
+
+.divtest1 {
+
+    position:relative;
+    float: left;
+    border-width:2px;
+
+}
+
+.wallpaper {
+    background-image: url(../imagens/bluespace.png);
+    height: 100%;
+    width: 100%;
+}
+
+.textobranco {
+
+    color: white;
+}
+
+.ficaigual1 {
+
+    background-color: #0660a1;
+    border: solid 2px #0660a1;
+}
+
+.ficaigual2 {
+    background-color: #1aace7;
+    border: solid 2px #1aace7;
+
+}
+.ficaigual1:hover {
+
+    cursor: pointer;
+}
+
+.ficaigual2:hover {
+    cursor: pointer;
+
+}
+
+.espaco1 {
+    padding-left: 5px;
+}
+
+.fixtam {
+    height: 20px;
+    background: transparent;
+    border: none;
+    font-size: 14;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.fundo {
+    background-color: white;
+    height: 30px;
+}
+
+.icone {
+    height: 20px;
+    width: 20px;
+}
+
+.backk {
+    background-image: url(../imagens/bluespace.png);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
